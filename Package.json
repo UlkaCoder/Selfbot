@@ -1,7 +1,15 @@
 {
-  "name": "voice",
+  "name": "discord-voice-24-7",
   "version": "1.0.0",
+  "description": "Discord Auto Voice 24/7",
   "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm install"
+  },
   "dependencies": {
     "discord.js-selfbot-v13": "^3.1.4",
     "express": "^4.18.2"
